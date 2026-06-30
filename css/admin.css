@@ -1,0 +1,294 @@
+/* ===========================
+        ADMIN GLOBAL
+=========================== */
+
+body{
+    margin:0;
+    font-family:'Poppins',sans-serif;
+    background:#f4f6f9;
+}
+
+/* ===========================
+        ADMIN LAYOUT
+=========================== */
+
+.admin-wrapper{
+    display:flex;
+    min-height:100vh;
+}
+
+/* ===========================
+        SIDEBAR
+=========================== */
+
+.sidebar{
+    width:260px;
+    background:#2c3e50;
+    color:#fff;
+    padding:20px;
+}
+
+.sidebar h2{
+    margin-bottom:10px;
+    font-size:22px;
+}
+
+.sidebar p{
+    font-size:13px;
+    opacity:0.8;
+    margin-bottom:20px;
+}
+
+.sidebar a{
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    padding:12px 15px;
+    margin:6px 0;
+    border-radius:8px;
+    transition:0.3s;
+    font-size:15px;
+}
+
+.sidebar a:hover{
+    background:#6C63FF;
+}
+
+.sidebar a.active{
+    background:#6C63FF;
+}
+
+/* ===========================
+        MAIN CONTENT
+=========================== */
+
+.main-content{
+    flex:1;
+    padding:30px;
+}
+
+.main-content h1{
+    margin-bottom:20px;
+    color:#333;
+}
+
+/* ===========================
+        FORMS
+=========================== */
+
+input, textarea, select{
+    width:100%;
+    padding:12px;
+    margin:8px 0;
+    border:1px solid #ddd;
+    border-radius:8px;
+    outline:none;
+    font-size:14px;
+    background:#fff;
+}
+
+textarea{
+    min-height:120px;
+    resize:none;
+}
+
+input:focus, textarea:focus, select:focus{
+    border-color:#6C63FF;
+}
+
+/* ===========================
+        BUTTONS
+=========================== */
+
+button{
+    padding:12px 20px;
+    background:#6C63FF;
+    color:#fff;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+    font-size:15px;
+}
+
+button:hover{
+    background:#5548f5;
+}
+
+/* ===========================
+        DASHBOARD CARDS
+=========================== */
+
+.card-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#fff;
+    padding:25px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card i{
+    font-size:30px;
+    color:#6C63FF;
+    margin-bottom:10px;
+}
+
+.card h3{
+    margin:10px 0;
+    font-size:16px;
+}
+
+.card p{
+    font-size:22px;
+    font-weight:bold;
+    color:#333;
+}
+
+/* ===========================
+        LOGIN BOX
+=========================== */
+
+.login-box{
+    width:360px;
+    margin:120px auto;
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+.login-box input{
+    margin:10px 0;
+}
+
+.login-box button{
+    width:100%;
+}
+
+/* ===========================
+        MESSAGE
+=========================== */
+
+.success{
+    color:green;
+    font-weight:500;
+}
+
+.error{
+    color:red;
+    font-weight:500;
+}
+/* ===========================
+        TABLE STYLE
+=========================== */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:#fff;
+    margin-top:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+table th, table td{
+    padding:12px;
+    border-bottom:1px solid #eee;
+    text-align:left;
+    font-size:14px;
+}
+
+table th{
+    background:#6C63FF;
+    color:#fff;
+}
+
+/* ===========================
+        ACTION BUTTONS
+=========================== */
+
+.btn-edit,
+.btn-delete,
+.btn-view{
+    padding:6px 10px;
+    border-radius:6px;
+    text-decoration:none;
+    font-size:12px;
+    margin-right:5px;
+    color:#fff;
+}
+
+.btn-edit{ background:#3498db; }
+.btn-delete{ background:#e74c3c; }
+.btn-view{ background:#2ecc71; }
+
+.btn-edit:hover,
+.btn-delete:hover,
+.btn-view:hover{
+    opacity:0.8;
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:#fff;
+    margin-top:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+table th, table td{
+    padding:12px;
+    border-bottom:1px solid #eee;
+    text-align:left;
+    font-size:14px;
+}
+
+table th{
+    background:#6C63FF;
+    color:#fff;
+}
+img{
+    border-radius:8px;
+    margin:10px 0;
+}
+.sidebar{
+    width:260px;
+    background:#2c3e50;
+    color:#fff;
+    padding:20px;
+    min-height:100vh;
+}
+
+.sidebar h2{
+    margin-bottom:10px;
+}
+
+.sidebar p{
+    font-size:13px;
+    opacity:0.8;
+    margin-bottom:20px;
+}
+
+.sidebar a{
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    padding:12px;
+    margin:5px 0;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.sidebar a:hover{
+    background:#6C63FF;
+}
